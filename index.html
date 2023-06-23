@@ -106,6 +106,15 @@
           encodeURIComponent(message);
         window.open(url);
       }
+      
+      function openWhatsApp() {
+  let phoneNumber = "+6285940438432";
+  let message = "Makasih dhika, besok kalau masuk ku trakter bantet, salam dari nani elek...!";
+  let encodedMessage = encodeURIComponent(message);
+  let url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+  window.open(url);
+}
+
 
     // elek
 
